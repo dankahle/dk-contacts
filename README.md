@@ -2,7 +2,7 @@
   
 This project is a duplication of Google's "Contacts" site as an exercise is using the latest MEAN stack techologies: angular 5, node 8.9, mongo 3.4.  
   
-####Demo site
+#### Demo site
 [https://dankahle.github.io/contacts-fe/](https://dankahle.github.io/contacts-fe/)  
   
 #### The project is comprised of 3 repos: 
