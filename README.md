@@ -2,7 +2,7 @@
 
 [dk-contacts demo site](https://dankahle.github.io/contacts-fe/)  
   
-This project is a duplication of Google's "Contacts" site as an exercise in using the latest mean stack technologies: angular 5, node 8.9, mongo 3.4. It's comprised of 3 repos (below) a common node project, backend (node/express/mongodb) and frontend (angular 5/material/flex-layout). Did the backend first, my first sizable backend using mongodb node native driver, and I liked that approach a lot, its api is consistent with the mongodb client, whereas mongoose has a whole other api to learn. Also, if you're doing json schema validation on post/put body, no need for mongoose validation as json schema validation is much richer/easier and affords api documentation to boot.
+This project is a duplication of Google's "Contacts" site as an exercise in using the latest mean stack technologies: angular 5, node 8.9, mongo 3.4. It's comprised of 3 repos (below): a common node project, backend rest api (node/express/mongodb), and frontend UI (angular 5/material/flex-layout). Did the backend first, my first sizable backend using mongodb node native driver, and I liked that approach a lot, its api is consistent with the mongodb client, whereas mongoose has a whole other api to learn. Also, if you're doing json schema validation on post/put body, no need for mongoose validation as json schema validation is much richer/easier and affords api documentation to boot.
   
   Material was easy to work with (after having worked with the bootstrap angular component libraries early on), but was buggy as heck and mix that with angular's bugs and it's bugs times two. Both are really in beta, in a mad dash to fix bugs, had to constantly update to get the latest of both.
   
