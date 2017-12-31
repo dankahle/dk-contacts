@@ -6,7 +6,7 @@ This project is a duplication of Google's "Contacts" site as an exercise is usin
   
   Material was easy to work with (after having worked with the bootstrap angular component libraries early on), but was buggy as heck and mix that with angular's bugs and it's bugs times two. Both are really in beta, in a mad dash to fix bugs, had to constantly update to get the latest of both.
   
-  Early on in the UI, lost a day messing with ViewEncapsulation.Emulated vs ViewEncapsulation.None. The default is Emulated, but angular/cli generates None, go figure. In the end went with Emulated, but None would work in all cases, Emulated presents several css challenges. 
+  Early on in the UI, lost a day messing with ViewEncapsulation.Emulated vs ViewEncapsulation.None. The default is Emulated, but angular/cli generates None, go figure. In the end went with Emulated, but None would work in all cases, Emulated presents several css challenges. Material went with None.
   
   
   Went with global application state for state that needed to be shared only, doing pub/sub via observables, which is similar to what redux does, without all the hooplah of epics/actions/reducers (epics are easily replaced by async service calls, actions/reducers are easily replaced by observable pub/sub). This coordinated the different site sections and made up for angular's choice of no more watches or messaging, which is very constraining. 
